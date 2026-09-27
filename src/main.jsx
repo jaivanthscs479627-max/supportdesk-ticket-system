@@ -6,5 +6,9 @@ import './index.css';
 import './App.css';
 
 createRoot(document.getElementById('root')).render(
-  <React.StrictMode><BrowserRouter><App /></BrowserRouter></React.StrictMode>,
+  <React.StrictMode>
+    <BrowserRouter basename="/supportdesk-ticket-system">
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
 );
